@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="540.0" maxWidth="720.0" prefHeight="540.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.AppScene">
+   <children>
+      <Button fx:id="btnAbrirCsv" layoutX="306.0" layoutY="198.0" mnemonicParsing="false" onAction="#btnAbrirCsvClick" text="Abrir CSV" />
+      <ComboBox fx:id="comboBoxGeneros" layoutX="24.0" layoutY="70.0" prefWidth="150.0" />
+      <Label layoutX="190.0" layoutY="13.0" prefHeight="49.0" prefWidth="340.0" text="Data Series Analyzer">
+         <font>
+            <Font name="Impact" size="39.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablaSeries" layoutX="24.0" layoutY="106.0" prefHeight="322.0" prefWidth="672.0">
+        <columns>
+          <TableColumn fx:id="TableColumnName" prefWidth="74.40002155303955" text="Titulo" />
+            <TableColumn fx:id="TableColumnRuntime" prefWidth="73.0" text="Runtime" />
+            <TableColumn fx:id="TableColumnCalificacion" prefWidth="69.39996337890625" text="Calificación" />
+            <TableColumn fx:id="TableColumnIMDB" prefWidth="66.80000305175781" text="IMDB" />
+            <TableColumn fx:id="TableColumnNroVotos" prefWidth="76.5999755859375" text="Nro Votos" />
+            <TableColumn fx:id="TableColumnArgumento" prefWidth="306.0" text="Argumento" />
+        </columns>
+      </TableView>
+      <Label fx:id="cantidadDeSeriesTEXTO" layoutX="27.0" layoutY="438.0" text="Cantidad de series: " />
+      <Label fx:id="cantidadSeriesLabel" layoutX="144.0" layoutY="437.0" prefHeight="18.0" prefWidth="23.0" />
+      <ComboBox fx:id="comboBoxPuntuacion" layoutX="190.0" layoutY="70.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
