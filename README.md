@@ -26,3 +26,14 @@ Utilizando la tabla hash desarrollada en la etapa anterior, con direccionamiento
 - cantidad de series por puntuación, tomando sólo el valor entero de la misma (una estructura de datos a elección)
 
 La interfaz debe implementarse de forma que permita al usuario elegir de una lista el género que se desea consultar. Una vez seleccionado el género, podrá decidir cuál de las tres dimensiones quiere ver: cantidad de series / detalle de series / cantidad por puntuación.
+
+![image](https://user-images.githubusercontent.com/40676287/202347764-995fefad-cb67-417b-97c5-d7a4ee1b257d.png)
+
+![image](https://user-images.githubusercontent.com/40676287/202347868-48c5875e-13cb-4245-8c5a-efcecacf2835.png)
+
+![image](https://user-images.githubusercontent.com/40676287/202347951-ddac6447-52bc-4ad8-9bc2-974bffd1936b.png)
+
+
+
+
+i love java fx
